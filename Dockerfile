@@ -13,6 +13,7 @@ RUN apk update && \
   apk --no-cache add \
     openjdk8 \
     ca-certificates \
+    curl \
     openssl \
     bash \
     git \
